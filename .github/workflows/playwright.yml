@@ -1,0 +1,15 @@
+name: Playwright Tests #this can be any nane
+on:
+  push: 
+    branches: [ main ]
+jobs: 
+  playwrighttests: #this can be any nane
+    runs-on: ubuntu-lasts
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2 #this is the github actions
+      - name: Say hello
+        run: echo Hello
+
+
+    #when git push occurs, this github actions pipeline will run
