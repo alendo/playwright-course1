@@ -4,7 +4,7 @@ on:
     branches: [ main ]
 jobs: 
   playwrighttests: #this can be any nane
-    runs-on: ubuntu-lasts
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2 #this is the github actions
