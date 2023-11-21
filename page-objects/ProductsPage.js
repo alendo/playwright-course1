@@ -14,7 +14,7 @@ export class ProductsPage {
 
   visit = async () => {
     // this is an arrow function
-    await this.page.goto('/');
+    await this.page.goto('http://localhost:2221/');
   };
 
   addProductsToBasket = async (index) => {
